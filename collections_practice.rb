@@ -32,7 +32,13 @@ def find_a(array)
   a_array
 end
 
-def sum_array
+def sum_array(array)
+  sum = 0 
+  integers = array.to_i 
+  integers.each do |x|
+   sum + x 
+  end
+  sum
 end
 
 
