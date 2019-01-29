@@ -28,6 +28,7 @@ def find_a(array)
   a_array = []
   array.each do |x|
     a_array << x if x[0] =="a"
+  a_array
 end
 
 def sum_array
