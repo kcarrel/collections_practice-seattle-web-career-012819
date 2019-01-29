@@ -21,11 +21,11 @@ end
 
 def kesha_maker(array)
   array.each {|x| x[2] = "$"}
-  
 end
 
 
-def find_a
+def find_a(array)
+  array.collect {|x| if x[0] == "a"}
 end
 
 def sum_array
