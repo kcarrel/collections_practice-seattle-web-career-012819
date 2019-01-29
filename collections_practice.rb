@@ -10,4 +10,9 @@ end
 def swap_elements
 end
 
+def reverse_array
+end
+
+def kesha_maker
+end
 
