@@ -26,6 +26,7 @@ end
 
 def find_a(array)
   array.collect {|x| if x[0] == "a"}
+  end
 end
 
 def sum_array
